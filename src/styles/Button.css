@@ -1,0 +1,19 @@
+.buttontext {
+  position: relative;
+  font-size: var(--large-reg-18-size);
+  line-height: 120%;
+  font-family: var(--small-reg-14);
+  color: var(--white);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-29xl);
+  background-color: var(--b300);
+  border-radius: var(--br-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

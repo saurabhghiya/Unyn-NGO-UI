@@ -1,0 +1,121 @@
+.empower,
+.h22,
+.p4 {
+  position: relative;
+  line-height: 120%;
+}
+.empower {
+  font-weight: 600;
+}
+.h22,
+.p4 {
+  align-self: stretch;
+}
+.h22 {
+  margin: 0;
+  font-size: var(--h2-bold-48-size);
+  font-weight: 700;
+  font-family: inherit;
+}
+.p4 {
+  color: var(--color-gray);
+  text-align: center;
+}
+.cardscontainer,
+.content1 {
+  display: flex;
+  align-items: center;
+}
+.content1 {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 720px;
+}
+.cardscontainer {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.join1 {
+  position: relative;
+  font-size: var(--large-reg-18-size);
+  line-height: 120%;
+  font-family: var(--small-reg-14);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  width: 35.6px;
+  flex-shrink: 0;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-57xl);
+  background-color: var(--b300);
+  border-radius: var(--br-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.learn-more1,
+.line-icon2 {
+  position: relative;
+  flex-shrink: 0;
+}
+.learn-more1 {
+  line-height: 120%;
+  display: inline-block;
+  width: 90.5px;
+}
+.line-icon2 {
+  width: 25.9px;
+  height: 24px;
+  overflow: hidden;
+}
+.joinwrapper1,
+.learnmore1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.joinwrapper1 {
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--large-reg-18-size);
+  color: var(--b300);
+}
+.container4 {
+  align-self: stretch;
+  gap: var(--gap-29xl);
+  text-align: center;
+  font-size: var(--h6-bold-24-size);
+}
+.container3,
+.container4,
+.frame5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container3 {
+  width: 100%;
+  gap: var(--gap-41xl);
+  max-width: 1140px;
+  text-align: left;
+  font-size: var(--large-reg-18-size);
+  color: var(--black);
+  font-family: var(--small-reg-14);
+}
+.frame5 {
+  align-self: stretch;
+  padding: var(--padding-41xl) var(--padding-11xl);
+  z-index: 6;
+}

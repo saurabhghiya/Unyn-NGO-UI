@@ -1,0 +1,214 @@
+.unyn-white-logo-01-1-icon {
+  position: relative;
+  width: 108.1px;
+  height: 32px;
+  object-fit: cover;
+}
+.enter-your-email,
+.p-large4 {
+  position: relative;
+  line-height: 120%;
+}
+.p-large4 {
+  align-self: stretch;
+}
+.enter-your-email {
+  z-index: 0;
+}
+.input-child,
+.input4 {
+  width: 261.6px;
+  height: 48px;
+  box-sizing: border-box;
+}
+.input-child {
+  border: 1px solid var(--white);
+  background-color: transparent;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  z-index: 1;
+}
+.input4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  position: relative;
+}
+.subscribe {
+  position: relative;
+  font-size: var(--large-reg-18-size);
+  line-height: 120%;
+  font-family: var(--small-reg-14);
+  color: var(--s300);
+  text-align: left;
+  display: inline-block;
+  width: 77px;
+}
+.button6,
+.form1 {
+  display: flex;
+  align-items: center;
+}
+.button6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--white);
+  border-radius: var(--br-81xl);
+  width: 164.1px;
+  height: 48px;
+  flex-direction: column;
+  justify-content: center;
+}
+.form1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--n50);
+}
+.p-small1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--small-reg-14-size);
+  line-height: 120%;
+  color: var(--white);
+}
+.column,
+.footerform {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.footerform {
+  align-self: stretch;
+}
+.column {
+  max-width: 450px;
+}
+.footertitles {
+  position: relative;
+  line-height: 120%;
+}
+.column1,
+.footerlinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footerlinks {
+  justify-content: flex-end;
+  gap: var(--gap-base);
+  font-size: var(--base-reg-16-size);
+}
+.column1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 120px;
+}
+.ant-designtwitter-circle-fill-icon {
+  position: relative;
+  width: 23.9px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footerlinks2,
+.link8 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.footerlinks2 {
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--base-reg-16-size);
+}
+.column3,
+.footermenu,
+.grid {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.column3 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 120px;
+  text-align: center;
+}
+.footermenu,
+.grid {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footermenu {
+  width: 560px;
+  max-width: 560px;
+  font-size: var(--larger-bold-20-size);
+  color: var(--white);
+}
+.grid {
+  z-index: 1;
+}
+.p-small2 {
+  position: relative;
+  line-height: 120%;
+  mix-blend-mode: normal;
+}
+.legal,
+.tnc {
+  display: flex;
+  flex-direction: row;
+}
+.tnc {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl) 0 0;
+  gap: var(--gap-5xl);
+}
+.legal {
+  width: 100%;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-5xl) 0 0;
+  max-width: 1140px;
+  z-index: 0;
+  font-size: var(--small-reg-14-size);
+  color: var(--white);
+}
+.footer,
+.frame10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer {
+  width: 100%;
+  gap: var(--gap-3xs);
+  max-width: 1140px;
+  text-align: left;
+  font-size: var(--large-reg-18-size);
+  color: var(--b50);
+  font-family: var(--small-reg-14);
+}
+.frame10 {
+  align-self: stretch;
+  background-color: var(--s300);
+  padding: var(--padding-281xl) var(--padding-11xl) var(--padding-53xl);
+  z-index: 0;
+}

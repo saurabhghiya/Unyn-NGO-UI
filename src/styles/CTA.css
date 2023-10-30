@@ -1,0 +1,101 @@
+.h24,
+.p6 {
+  position: relative;
+  line-height: 120%;
+}
+.h24 {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.p6 {
+  font-size: var(--large-reg-18-size);
+  color: var(--b50);
+  text-align: left;
+}
+.joinheading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.join2 {
+  position: relative;
+  font-size: var(--large-reg-18-size);
+  line-height: 120%;
+  font-family: var(--small-reg-14);
+  color: var(--b300);
+  text-align: left;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-47xl);
+  background-color: var(--white);
+  flex: 1;
+  border-radius: var(--br-31xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 165px;
+}
+.get-evolved {
+  position: relative;
+  font-size: var(--large-reg-18-size);
+  line-height: 120%;
+  font-family: var(--small-reg-14);
+  color: var(--white);
+  text-align: left;
+}
+.button4,
+.buttonscontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button4 {
+  cursor: pointer;
+  border: 1px solid var(--white);
+  padding: var(--padding-smi) var(--padding-12xl);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-31xl);
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 165px;
+}
+.buttonscontainer {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: var(--gap-11xl);
+  max-width: 360px;
+}
+.container6,
+.frame7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container6 {
+  width: 100%;
+  gap: var(--gap-29xl);
+  max-width: 1140px;
+}
+.frame7 {
+  align-self: stretch;
+  background-color: var(--b300);
+  padding: var(--padding-41xl) var(--padding-11xl);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--h2-bold-48-size);
+  color: var(--white);
+  font-family: var(--small-reg-14);
+}

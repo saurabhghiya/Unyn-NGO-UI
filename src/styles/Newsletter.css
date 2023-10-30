@@ -1,0 +1,115 @@
+.h25 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.h25,
+.heading1,
+.p7 {
+  align-self: stretch;
+}
+.p7 {
+  position: relative;
+  font-size: var(--large-reg-18-size);
+  line-height: 120%;
+  color: var(--color-gray);
+}
+.heading1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.sign-up {
+  position: relative;
+  font-size: var(--large-reg-18-size);
+  line-height: 120%;
+  font-family: var(--small-reg-14);
+  color: var(--white);
+  text-align: left;
+}
+.button5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-35xl);
+  background-color: var(--b300);
+  border-radius: var(--br-81xl);
+}
+.button5,
+.input,
+.newsletterform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input {
+  border: 1px solid var(--b300);
+  font-family: var(--small-reg-14);
+  font-size: var(--large-reg-18-size);
+  background-color: transparent;
+  border-radius: var(--br-81xl);
+  box-sizing: border-box;
+  width: 360px;
+  padding: var(--padding-smi) var(--padding-5xl);
+}
+.newsletterform {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+}
+.p-small {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+}
+.contentwrapper2,
+.newsletterform-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.newsletterform-parent {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  font-size: var(--small-reg-14-size);
+  color: var(--color-gray);
+}
+.contentwrapper2 {
+  flex: 1;
+  gap: var(--gap-base);
+}
+.container-child {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 310px;
+  object-fit: cover;
+}
+.container7,
+.frame8 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container7 {
+  width: 100%;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  max-width: 1140px;
+  text-align: left;
+  font-size: var(--h2-bold-48-size);
+  color: var(--black);
+  font-family: var(--small-reg-14);
+}
+.frame8 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-41xl) var(--padding-11xl);
+  z-index: 2;
+}

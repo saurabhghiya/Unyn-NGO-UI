@@ -1,0 +1,54 @@
+.starrating-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.p-bold {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+.image-icon2 {
+  position: relative;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.john-doe,
+.marketing-manager-xyz {
+  position: relative;
+  line-height: 120%;
+}
+.marketing-manager-xyz {
+  font-size: var(--ex-small-reg-12-size);
+}
+.card1,
+.details,
+.reviewer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.card1,
+.reviewer {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--base-reg-16-size);
+}
+.card1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  min-width: 300px;
+  max-width: 550px;
+  text-align: left;
+  font-size: var(--large-reg-18-size);
+  color: var(--black);
+  font-family: var(--small-reg-14);
+}
